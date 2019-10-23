@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="76.0.3809.68"/>
+    <parameter name="url" value="http://demo.guru99.com/V4/"/>
+    <classes>
+      <class name="com.bankguru.scripts.NewCustomerScript">
+        <methods>
+          <include name="NC10"/>
+          <include name="NC30"/>
+          <include name="NC14"/>
+          <include name="NC13"/>
+          <include name="NC12"/>
+          <include name="NC11"/>
+          <include name="NC18"/>
+          <include name="NC16"/>
+          <include name="NC15"/>
+          <include name="NC19"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="NC20"/>
+          <include name="NC03"/>
+          <include name="NC25"/>
+          <include name="NC02"/>
+          <include name="NC24"/>
+          <include name="NC01"/>
+          <include name="NC23"/>
+          <include name="NC00"/>
+          <include name="NC22"/>
+          <include name="NC29"/>
+          <include name="NC06"/>
+          <include name="NC05"/>
+          <include name="NC27"/>
+          <include name="NC04"/>
+          <include name="NC26"/>
+          <include name="afterClass"/>
+          <include name="NC09"/>
+          <include name="NC08"/>
+        </methods>
+      </class> <!-- com.bankguru.scripts.NewCustomerScript -->
+      <class name="com.bankguru.scripts.RegisterScript">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="NC00"/>
+        </methods>
+      </class> <!-- com.bankguru.scripts.RegisterScript -->
+      <class name="com.bankguru.scripts.EditCustomerScript">
+        <methods>
+          <include name="EC18"/>
+          <include name="EC17"/>
+          <include name="EC09"/>
+          <include name="EC08"/>
+          <include name="EC19"/>
+          <include name="EC03"/>
+          <include name="EC14"/>
+          <include name="EC02"/>
+          <include name="EC13"/>
+          <include name="EC16"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="EC04"/>
+          <include name="EC15"/>
+          <include name="EC10"/>
+          <include name="EC21"/>
+          <include name="EC20"/>
+          <include name="afterClass"/>
+          <include name="EC01"/>
+          <include name="EC12"/>
+          <include name="EC11"/>
+          <include name="EC22"/>
+        </methods>
+      </class> <!-- com.bankguru.scripts.EditCustomerScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

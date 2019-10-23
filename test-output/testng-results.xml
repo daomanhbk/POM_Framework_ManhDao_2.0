@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="47" passed="47">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="556889" started-at="2019-10-01T13:11:47Z" finished-at="2019-10-01T13:21:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="556889" started-at="2019-10-01T13:11:47Z" finished-at="2019-10-01T13:21:04Z">
+      <class name="com.bankguru.scripts.EditCustomerScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="beforeClass" is-config="true" duration-ms="41718" started-at="2019-10-01T13:19:02Z" finished-at="2019-10-01T13:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76.0.3809.68]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="EC01()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC01" duration-ms="15483" started-at="2019-10-01T13:19:44Z" finished-at="2019-10-01T13:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC01 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:19:59Z" finished-at="2019-10-01T13:19:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC01 status=SUCCESS method=EditCustomerScript.EC01()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC02()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC02" duration-ms="14384" started-at="2019-10-01T13:19:59Z" finished-at="2019-10-01T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC02 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:20:14Z" finished-at="2019-10-01T13:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC02 status=SUCCESS method=EditCustomerScript.EC02()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC03()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC03" duration-ms="14601" started-at="2019-10-01T13:20:14Z" finished-at="2019-10-01T13:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC03 -->
+        <test-method status="PASS" signature="EC04()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC04" duration-ms="29480" started-at="2019-10-01T13:20:28Z" finished-at="2019-10-01T13:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC04 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:20:28Z" finished-at="2019-10-01T13:20:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC03 status=SUCCESS method=EditCustomerScript.EC03()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:20:58Z" finished-at="2019-10-01T13:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC04 status=SUCCESS method=EditCustomerScript.EC04()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC08()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC08" duration-ms="511" started-at="2019-10-01T13:20:58Z" finished-at="2019-10-01T13:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC08 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:20:58Z" finished-at="2019-10-01T13:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC08 status=SUCCESS method=EditCustomerScript.EC08()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC09()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC09" duration-ms="477" started-at="2019-10-01T13:20:58Z" finished-at="2019-10-01T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC09 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:20:59Z" finished-at="2019-10-01T13:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC09 status=SUCCESS method=EditCustomerScript.EC09()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC10()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC10" duration-ms="219" started-at="2019-10-01T13:20:59Z" finished-at="2019-10-01T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC10 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:20:59Z" finished-at="2019-10-01T13:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC10 status=SUCCESS method=EditCustomerScript.EC10()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC11()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC11" duration-ms="389" started-at="2019-10-01T13:20:59Z" finished-at="2019-10-01T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC11 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:20:59Z" finished-at="2019-10-01T13:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC11 status=SUCCESS method=EditCustomerScript.EC11()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC12()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC12" duration-ms="362" started-at="2019-10-01T13:20:59Z" finished-at="2019-10-01T13:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC12 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC12 status=SUCCESS method=EditCustomerScript.EC12()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC13()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC13" duration-ms="183" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC13 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC13 status=SUCCESS method=EditCustomerScript.EC13()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC14()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC14" duration-ms="181" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC14 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC14 status=SUCCESS method=EditCustomerScript.EC14()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC15()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC15" duration-ms="260" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC15 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC15 status=SUCCESS method=EditCustomerScript.EC15()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC16()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC16" duration-ms="212" started-at="2019-10-01T13:21:00Z" finished-at="2019-10-01T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC16 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC16 status=SUCCESS method=EditCustomerScript.EC16()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC17()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC17" duration-ms="187" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC17 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC17 status=SUCCESS method=EditCustomerScript.EC17()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC18()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC18" duration-ms="225" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC18 -->
+        <test-method status="PASS" signature="EC19()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC19" duration-ms="288" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC19 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC18 status=SUCCESS method=EditCustomerScript.EC18()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC19 status=SUCCESS method=EditCustomerScript.EC19()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC20()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC20" duration-ms="179" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC20 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC20 status=SUCCESS method=EditCustomerScript.EC20()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC21()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC21" duration-ms="249" started-at="2019-10-01T13:21:01Z" finished-at="2019-10-01T13:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC21 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:02Z" finished-at="2019-10-01T13:21:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC21 status=SUCCESS method=EditCustomerScript.EC21()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EC22()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="EC22" duration-ms="194" started-at="2019-10-01T13:21:02Z" finished-at="2019-10-01T13:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EC22 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterClass" is-config="true" duration-ms="1620" started-at="2019-10-01T13:21:02Z" finished-at="2019-10-01T13:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:21:02Z" finished-at="2019-10-01T13:21:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EC22 status=SUCCESS method=EditCustomerScript.EC22()[pri:0, instance:com.bankguru.scripts.EditCustomerScript@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bankguru.scripts.EditCustomerScript -->
+      <class name="com.bankguru.scripts.NewCustomerScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeClass" is-config="true" duration-ms="41202" started-at="2019-10-01T13:12:44Z" finished-at="2019-10-01T13:13:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76.0.3809.68]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="8079" started-at="2019-10-01T13:13:25Z" finished-at="2019-10-01T13:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC00()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC00" duration-ms="21396" started-at="2019-10-01T13:13:33Z" finished-at="2019-10-01T13:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC00 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:13:55Z" finished-at="2019-10-01T13:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC00 status=SUCCESS method=NewCustomerScript.NC00()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="7438" started-at="2019-10-01T13:13:55Z" finished-at="2019-10-01T13:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC01()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC01" duration-ms="193" started-at="2019-10-01T13:14:02Z" finished-at="2019-10-01T13:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC01 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:14:02Z" finished-at="2019-10-01T13:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC01 status=SUCCESS method=NewCustomerScript.NC01()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13239" started-at="2019-10-01T13:14:02Z" finished-at="2019-10-01T13:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC02()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC02" duration-ms="198" started-at="2019-10-01T13:14:16Z" finished-at="2019-10-01T13:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC02 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:14:16Z" finished-at="2019-10-01T13:14:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC02 status=SUCCESS method=NewCustomerScript.NC02()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13298" started-at="2019-10-01T13:14:16Z" finished-at="2019-10-01T13:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC03()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC03" duration-ms="291" started-at="2019-10-01T13:14:29Z" finished-at="2019-10-01T13:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC03 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:14:29Z" finished-at="2019-10-01T13:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC03 status=SUCCESS method=NewCustomerScript.NC03()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13463" started-at="2019-10-01T13:14:29Z" finished-at="2019-10-01T13:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC04()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC04" duration-ms="228" started-at="2019-10-01T13:14:43Z" finished-at="2019-10-01T13:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC04 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:14:43Z" finished-at="2019-10-01T13:14:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC04 status=SUCCESS method=NewCustomerScript.NC04()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13301" started-at="2019-10-01T13:14:43Z" finished-at="2019-10-01T13:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC05()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC05" duration-ms="333" started-at="2019-10-01T13:14:56Z" finished-at="2019-10-01T13:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC05 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:14:57Z" finished-at="2019-10-01T13:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC05 status=SUCCESS method=NewCustomerScript.NC05()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13415" started-at="2019-10-01T13:14:57Z" finished-at="2019-10-01T13:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC06()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC06" duration-ms="175" started-at="2019-10-01T13:15:10Z" finished-at="2019-10-01T13:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC06 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13335" started-at="2019-10-01T13:15:10Z" finished-at="2019-10-01T13:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:15:10Z" finished-at="2019-10-01T13:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC06 status=SUCCESS method=NewCustomerScript.NC06()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="NC08()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC08" duration-ms="390" started-at="2019-10-01T13:15:24Z" finished-at="2019-10-01T13:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC08 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:15:24Z" finished-at="2019-10-01T13:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC08 status=SUCCESS method=NewCustomerScript.NC08()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13456" started-at="2019-10-01T13:15:24Z" finished-at="2019-10-01T13:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC09()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC09" duration-ms="271" started-at="2019-10-01T13:15:38Z" finished-at="2019-10-01T13:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC09 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:15:38Z" finished-at="2019-10-01T13:15:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC09 status=SUCCESS method=NewCustomerScript.NC09()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13498" started-at="2019-10-01T13:15:38Z" finished-at="2019-10-01T13:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC10()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC10" duration-ms="210" started-at="2019-10-01T13:15:51Z" finished-at="2019-10-01T13:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC10 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:15:51Z" finished-at="2019-10-01T13:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC10 status=SUCCESS method=NewCustomerScript.NC10()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13329" started-at="2019-10-01T13:15:51Z" finished-at="2019-10-01T13:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC11()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC11" duration-ms="159" started-at="2019-10-01T13:16:05Z" finished-at="2019-10-01T13:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC11 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:16:05Z" finished-at="2019-10-01T13:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC11 status=SUCCESS method=NewCustomerScript.NC11()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13385" started-at="2019-10-01T13:16:05Z" finished-at="2019-10-01T13:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC12()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC12" duration-ms="385" started-at="2019-10-01T13:16:18Z" finished-at="2019-10-01T13:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC12 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:16:19Z" finished-at="2019-10-01T13:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC12 status=SUCCESS method=NewCustomerScript.NC12()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13343" started-at="2019-10-01T13:16:19Z" finished-at="2019-10-01T13:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC13()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC13" duration-ms="301" started-at="2019-10-01T13:16:32Z" finished-at="2019-10-01T13:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC13 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:16:32Z" finished-at="2019-10-01T13:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC13 status=SUCCESS method=NewCustomerScript.NC13()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13352" started-at="2019-10-01T13:16:32Z" finished-at="2019-10-01T13:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC14()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC14" duration-ms="300" started-at="2019-10-01T13:16:46Z" finished-at="2019-10-01T13:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC14 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:16:46Z" finished-at="2019-10-01T13:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC14 status=SUCCESS method=NewCustomerScript.NC14()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13606" started-at="2019-10-01T13:16:46Z" finished-at="2019-10-01T13:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC15()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC15" duration-ms="278" started-at="2019-10-01T13:17:00Z" finished-at="2019-10-01T13:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC15 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:17:00Z" finished-at="2019-10-01T13:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC15 status=SUCCESS method=NewCustomerScript.NC15()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13436" started-at="2019-10-01T13:17:00Z" finished-at="2019-10-01T13:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC16()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC16" duration-ms="395" started-at="2019-10-01T13:17:13Z" finished-at="2019-10-01T13:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC16 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:17:14Z" finished-at="2019-10-01T13:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC16 status=SUCCESS method=NewCustomerScript.NC16()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13294" started-at="2019-10-01T13:17:14Z" finished-at="2019-10-01T13:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC18()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC18" duration-ms="274" started-at="2019-10-01T13:17:27Z" finished-at="2019-10-01T13:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC18 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-10-01T13:17:27Z" finished-at="2019-10-01T13:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC18 status=SUCCESS method=NewCustomerScript.NC18()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13453" started-at="2019-10-01T13:17:27Z" finished-at="2019-10-01T13:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC19()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC19" duration-ms="183" started-at="2019-10-01T13:17:41Z" finished-at="2019-10-01T13:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC19 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:17:41Z" finished-at="2019-10-01T13:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC19 status=SUCCESS method=NewCustomerScript.NC19()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="7358" started-at="2019-10-01T13:17:41Z" finished-at="2019-10-01T13:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC20()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC20" duration-ms="150" started-at="2019-10-01T13:17:48Z" finished-at="2019-10-01T13:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC20 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:17:48Z" finished-at="2019-10-01T13:17:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC20 status=SUCCESS method=NewCustomerScript.NC20()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13256" started-at="2019-10-01T13:17:48Z" finished-at="2019-10-01T13:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC22()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC22" duration-ms="290" started-at="2019-10-01T13:18:02Z" finished-at="2019-10-01T13:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC22 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:18:02Z" finished-at="2019-10-01T13:18:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC22 status=SUCCESS method=NewCustomerScript.NC22()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="940" started-at="2019-10-01T13:18:02Z" finished-at="2019-10-01T13:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC23()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC23" duration-ms="246" started-at="2019-10-01T13:18:03Z" finished-at="2019-10-01T13:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC23 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-10-01T13:18:03Z" finished-at="2019-10-01T13:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC23 status=SUCCESS method=NewCustomerScript.NC23()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="846" started-at="2019-10-01T13:18:03Z" finished-at="2019-10-01T13:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC24()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC24" duration-ms="502" started-at="2019-10-01T13:18:04Z" finished-at="2019-10-01T13:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC24 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="527" started-at="2019-10-01T13:18:05Z" finished-at="2019-10-01T13:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:18:05Z" finished-at="2019-10-01T13:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC24 status=SUCCESS method=NewCustomerScript.NC24()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="NC25()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC25" duration-ms="375" started-at="2019-10-01T13:18:05Z" finished-at="2019-10-01T13:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC25 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:18:05Z" finished-at="2019-10-01T13:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC25 status=SUCCESS method=NewCustomerScript.NC25()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13410" started-at="2019-10-01T13:18:05Z" finished-at="2019-10-01T13:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC26()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC26" duration-ms="328" started-at="2019-10-01T13:18:19Z" finished-at="2019-10-01T13:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC26 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:18:19Z" finished-at="2019-10-01T13:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC26 status=SUCCESS method=NewCustomerScript.NC26()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13412" started-at="2019-10-01T13:18:19Z" finished-at="2019-10-01T13:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC27()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC27" duration-ms="271" started-at="2019-10-01T13:18:33Z" finished-at="2019-10-01T13:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC27 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:18:33Z" finished-at="2019-10-01T13:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC27 status=SUCCESS method=NewCustomerScript.NC27()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13415" started-at="2019-10-01T13:18:33Z" finished-at="2019-10-01T13:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NC29()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC29" duration-ms="301" started-at="2019-10-01T13:18:46Z" finished-at="2019-10-01T13:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC29 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="13398" started-at="2019-10-01T13:18:47Z" finished-at="2019-10-01T13:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-01T13:18:47Z" finished-at="2019-10-01T13:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC29 status=SUCCESS method=NewCustomerScript.NC29()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="NC30()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="NC30" duration-ms="809" started-at="2019-10-01T13:19:00Z" finished-at="2019-10-01T13:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC30 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-01T13:19:01Z" finished-at="2019-10-01T13:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC30 status=SUCCESS method=NewCustomerScript.NC30()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.scripts.NewCustomerScript@f6c48ac]" name="afterClass" is-config="true" duration-ms="1238" started-at="2019-10-01T13:19:01Z" finished-at="2019-10-01T13:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.scripts.NewCustomerScript -->
+      <class name="com.bankguru.scripts.RegisterScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.scripts.RegisterScript@464bee09]" name="beforeClass" is-config="true" duration-ms="26270" started-at="2019-10-01T13:11:47Z" finished-at="2019-10-01T13:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76.0.3809.68]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="NC00()[pri:0, instance:com.bankguru.scripts.RegisterScript@464bee09]" name="NC00" duration-ms="29263" started-at="2019-10-01T13:12:13Z" finished-at="2019-10-01T13:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC00 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.scripts.RegisterScript@464bee09]" name="afterMethod" is-config="true" duration-ms="8" started-at="2019-10-01T13:12:42Z" finished-at="2019-10-01T13:12:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NC00 status=SUCCESS method=RegisterScript.NC00()[pri:0, instance:com.bankguru.scripts.RegisterScript@464bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.scripts.RegisterScript@464bee09]" name="afterClass" is-config="true" duration-ms="1877" started-at="2019-10-01T13:12:42Z" finished-at="2019-10-01T13:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.scripts.RegisterScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
