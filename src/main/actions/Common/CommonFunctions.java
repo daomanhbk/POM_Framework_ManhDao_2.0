@@ -64,23 +64,23 @@ public class CommonFunctions {
 		driver.navigate().refresh();
 	}
 	
-	public void clickToElement(String locator) {
-		WebElement element = driver.findElement(By.xpath(locator));
+	public void clickToElement(WebElement element) {
+//		WebElement element = driver.findElement(By.xpath(locator));
 		element.click();
 	}
 	
-	public String getTextElement(String locator) {
-		WebElement element = driver.findElement(By.xpath(locator));
+	public String getTextElement(WebElement element) {
+//		WebElement element = driver.findElement(By.xpath(locator));
 		return element.getText();
 	}
 	
-	public void clearElement(String locator) {
-		WebElement element = driver.findElement(By.xpath(locator));
+	public void clearElement(WebElement element) {
+//		WebElement element = driver.findElement(By.xpath(locator));
 		element.clear();
 	}
 	
-	public void inputElement(String locator, String value) {
-		WebElement element = driver.findElement(By.xpath(locator));
+	public void inputElement(WebElement element, String value) {
+//		WebElement element = driver.findElement(By.xpath(locator));
 		element.sendKeys(value);
 	}
 	
@@ -194,8 +194,8 @@ public class CommonFunctions {
 		action.release();
 	}
 	
-	public void sendKeyPress(String locator, Keys key) {
-		WebElement element = driver.findElement(By.xpath(locator));
+	public void sendKeyPress(WebElement element, Keys key) {
+//		WebElement element = driver.findElement(By.xpath(locator));
 		element.click();
 		element.sendKeys(key);
 	}
@@ -245,15 +245,15 @@ public class CommonFunctions {
 //	}
 
 
-	public void removeAttributeElement(String locator, String attribute) {
+	public void removeAttributeElement(WebElement element, String attribute) {
 		JavascriptExecutor javascript = (JavascriptExecutor) driver;
-		WebElement element = driver.findElement(By.xpath(locator));
+//		WebElement element = driver.findElement(By.xpath(locator));
 		javascript.executeScript("arguments[0].removeAttribute('" + attribute + "')", element);
 	}
 	
-	public void waitForElemenVisible(String locator) {
+	public void waitForElemenVisible(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	//??
 	public void waitForElemenInvisible(String locator) {

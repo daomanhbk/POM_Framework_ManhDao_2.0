@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="Test">
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="76.0.3809.68" />
+		<parameter name="version" value="77.0.3865.120" />
 		<parameter name="url" value="http://demo.guru99.com/V4/" />
 
 		<classes>
